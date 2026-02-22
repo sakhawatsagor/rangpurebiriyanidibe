@@ -27,7 +27,7 @@ const Header = ({ searchQuery, onSearchChange, activeCount }: HeaderProps) => {
           type="text"
           value={searchQuery}
           onChange={(e) => onSearchChange(e.target.value)}
-          placeholder="মসজিদ বা এলাকা খুঁজুন…"
+          placeholder="রংপুরে মসজিদ বা এলাকা খুঁজুন…"
           className="w-full rounded-full border bg-background py-2 pl-10 pr-4 text-sm outline-none focus:ring-2 focus:ring-primary/30 transition-shadow"
         />
       </div>
