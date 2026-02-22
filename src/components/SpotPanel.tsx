@@ -525,12 +525,12 @@ const SpotPanel = ({
         <p className="text-center text-[10px] text-muted-foreground">
           Developed by{" "}
           <a
-            href="https://www.facebook.com/monirweb.wdd"
+            href="https://www.facebook.com/sagor.sakhawat"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-primary hover:underline"
           >
-            Monir
+            Sakhawat Hossain Sagor
           </a>
         </p>
       </div>

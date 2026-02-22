@@ -38,7 +38,7 @@ const Header = ({ searchQuery, onSearchChange, activeCount }: HeaderProps) => {
           সরাসরি
         </span>
         <a
-          href="https://github.com/monir6163"
+          href="https://github.com/sakhawatsagor"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-full p-2 hover:bg-accent transition-colors"
