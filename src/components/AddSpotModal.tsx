@@ -225,7 +225,7 @@ const AddSpotModal = ({
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="যেমন: সোবহানবাগ জামে মসজিদ"
+              placeholder="বেগম রোকেয়া বিশ্ববিদ্যালয় কেন্দ্রীয় মসজিদ"
               required
               maxLength={100}
               className="mt-1 w-full rounded-xl border bg-background px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-primary/30 transition-shadow"
@@ -241,7 +241,7 @@ const AddSpotModal = ({
               type="text"
               value={area}
               onChange={(e) => setArea(e.target.value)}
-              placeholder="যেমন: ধানমন্ডি, মিরপুর, গুলশান"
+              placeholder="যেমন: পার্কের মোড়, লালবাগ, রংপুর"
               required
               maxLength={100}
               className="mt-1 w-full rounded-xl border bg-background px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-primary/30 transition-shadow"
@@ -352,7 +352,7 @@ const AddSpotModal = ({
                       handleLocationSearch();
                     }
                   }}
-                  placeholder="🔍 জায়গার নাম লিখুন (যেমন: ধানমন্ডি মসজিদ)"
+                  placeholder="🔍 জায়গার নাম লিখুন (যেমন: বেগম রোকেয়া বিশ্ববিদ্যালয় কেন্দ্রীয় মসজিদ)"
                   className="w-full rounded-xl border bg-background pl-10 pr-20 py-2.5 text-sm outline-none focus:ring-2 focus:ring-primary/30 transition-shadow"
                 />
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
