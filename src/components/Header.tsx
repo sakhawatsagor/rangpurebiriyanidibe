@@ -1,5 +1,6 @@
 import logo from "@/assets/logo.png";
 import { Github, Search } from "lucide-react";
+import { Facebook } from "lucide-react";
 
 interface HeaderProps {
   searchQuery: string;
@@ -17,7 +18,7 @@ const Header = ({ searchQuery, onSearchChange, activeCount }: HeaderProps) => {
           className="h-10 w-10 rounded-full object-cover"
         />
         <span className="hidden sm:block font-bold text-primary text-lg">
-          বিরিয়ানিদিবে
+         রংপুরে বিরিয়ানিদিবে
         </span>
       </a>
 
@@ -38,6 +39,15 @@ const Header = ({ searchQuery, onSearchChange, activeCount }: HeaderProps) => {
           সরাসরি
         </span>
         <a
+  href="https://facebook.com/sagor.sakhawat"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-full p-2 hover:bg-blue-100 transition-colors"
+  aria-label="Facebook Profile"
+>
+  <Facebook className="h-5 w-5 text-blue-600" />
+</a>
+<a
           href="https://github.com/sakhawatsagor"
           target="_blank"
           rel="noopener noreferrer"
