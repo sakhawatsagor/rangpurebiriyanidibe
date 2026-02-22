@@ -245,8 +245,8 @@ function offsetDuplicateLocations(spots: BiryaniSpot[]): Array<{
   return result;
 }
 
-// Default map center (Dhaka, Bangladesh)
-const position: [number, number] = [23.7596, 90.379]; // ঢাকা, বাংলাদেশ
+// Default map center (Rangpur, Bangladesh)
+const position: [number, number] = [25.7439, 89.2752]; // রংপুর, বাংলাদেশ
 
 const SpotMap = ({
   spots,
